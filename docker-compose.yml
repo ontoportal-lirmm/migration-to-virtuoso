@@ -1,0 +1,12 @@
+services:
+  virtuoso:
+    image: tenforce/virtuoso
+    ports:
+      - "1111:1111"
+      - "8890:8890"
+    environment:
+      - DBA_PASSWORD=admin
+      - SPARQL_UPDATE=true
+    volumes:
+      - ./virtuoso:/data  # Persistent data
+      - ./processed_files:/data/processed_files
