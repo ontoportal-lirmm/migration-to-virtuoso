@@ -79,7 +79,7 @@ def compare_graphs_with_files(graph_triples)
       triples_count = graph['triplesCount']['value'].to_i
 
       graph_filename = graphs_files[graph_uri]
-      next unless graph_filename
+      next csv << [graph_uri, triples_count, "Graph not found", "N/A"] unless graph_filename
       
       # Construct the expected file name based on the graph URI
       file_name = "#{PROCESSED_DIR}/#{graph_filename}"

@@ -38,8 +38,8 @@ for file in "$PROCESSED_DIR"/*.n3; do
 
   # Extract the graph URI from the graph file
   graph_uri=$(cat "$graph_file")
-
-  # Clean the graph first
+#
+#  # Clean the graph first
 #  echo "Cleaning graph <$graph_uri> in Virtuoso..."
 #  docker exec -i $(docker ps -q -f "name=virtuoso") isql-v 1111 "$VIRTUOSO_USER" "$VIRTUOSO_PASS" \
 #                   exec="SPARQL DROP SILENT GRAPH <$graph_uri>"
@@ -54,17 +54,17 @@ for file in "$PROCESSED_DIR"/*.n3; do
   echo "Successfully cleaned graph <$graph_uri>."
 
   # Run Virtuoso ISQL command to load the data into the specified graph
-  if ! docker exec -i $(docker ps -q -f "name=virtuoso") isql-v 1111 "$VIRTUOSO_USER" "$VIRTUOSO_PASS" exec="ld_dir('./$PROCESSED_DIR', '$(basename "$file")', '$graph_uri')"; then
+  if ! virtuoso-opensource/bin/isql 1111 "$VIRTUOSO_USER" "$VIRTUOSO_PASS" exec="ld_dir('./$PROCESSED_DIR', '$(basename "$file")', '$graph_uri')"; then
     echo "Error importing $file into graph <$graph_uri>. Exiting script."
     exit 1
   fi
+
+  # Execute the load command in Virtuoso
+  echo "Executing the load process in Virtuoso..."
+  virtuoso-opensource/bin/isql 1111 "$VIRTUOSO_USER" "$VIRTUOSO_PASS" exec="rdf_loader_run()"
+  echo "Load process completed."
 
   # Print the completion of the import for the current file
   echo "Imported $file into graph <$graph_uri>"
   echo "--------------------------------"
 done
-
-# Execute the load command in Virtuoso
-echo "Executing the load process in Virtuoso..."
-docker exec -i $(docker ps -q -f "name=virtuoso") isql-v 1111 "$VIRTUOSO_USER" "$VIRTUOSO_PASS" exec="rdf_loader_run()"
-echo "Load process completed."
