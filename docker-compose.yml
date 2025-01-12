@@ -1,12 +1,22 @@
 services:
-  virtuoso:
-    image: tenforce/virtuoso
+#  virtuoso:
+#    image: tenforce/virtuoso
+#    ports:
+#      - "1111:1111"
+#      - "8890:8890"
+#    environment:
+#      - DBA_PASSWORD=admin
+#      - SPARQL_UPDATE=true
+#    volumes:
+#      - ./virtuoso:/data  # Persistent data
+#      - ./processed_files:/data/processed_files
+
+  4store-ut:
+    image: bde2020/4store
+    platform: linux/amd64
     ports:
-      - "1111:1111"
-      - "8890:8890"
-    environment:
-      - DBA_PASSWORD=admin
-      - SPARQL_UPDATE=true
-    volumes:
-      - ./virtuoso:/data  # Persistent data
-      - ./processed_files:/data/processed_files
+      - 9000:9000
+    command: >
+      bash -c "4s-backend-setup --segments 4 ontoportal_kb
+      && 4s-backend ontoportal_kb
+      && 4s-httpd -D -s-1 -p 9000 ontoportal_kb"

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="mise: 3.1.0" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.2.2.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.7, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="base64 (v0.2.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.20, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="benchmark (v0.4.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v3.1.9, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.3.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.3, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.3, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.3.4, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.5.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cube-ruby (v0.0.3, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="date (v3.4.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.6.20240107, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v2.12.2, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-net_http (v3.4.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.17.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="htmlentities (v4.3.4, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-accept (v1.7.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.8, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.6, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.9.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json-canonicalization (v0.4.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json-ld (v3.2.5, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jwt (v2.10.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="libxml-ruby (v5.0.3, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="link_header (v0.0.8, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="logger (v1.6.5, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="macaddr (v1.7.2, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.8.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v1.1.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.6.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2025.0107, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.25.4, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.15.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-ftp (v0.3.8, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-http (v0.6.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-http-persistent (v4.0.5, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.5.5, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-pop (v0.1.2, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-protocol (v0.2.2, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.5.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.11.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="oj (v3.16.9, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="omni_logger (v0.1.4, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ontologies_linked_data (v0.0.1@d84e37, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ostruct (v0.6.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="parallel (v1.26.3, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pony (v1.13.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.15.2, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v6.0.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v3.1.8, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v2.2.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdf (v3.2.11, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdf-raptor (v3.2.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdf-rdfxml (v3.2.2, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdf-vocab (v3.2.7, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdf-xsd (v3.2.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redis (v5.3.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redis-client (v0.23.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="request_store (v1.7.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v2.1.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rexml (v3.4.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rsolr (v2.6.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.4.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="securerandom (v0.4.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sparql-client (v3.2.2@59251e, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="systemu (v2.6.5, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="time (v0.4.1, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="timeout (v0.4.3, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.6, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uri (v1.0.2, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uuid (v2.3.9, mise: 3.1.0) [gem]" level="application" />
+  </component>
+</module>
