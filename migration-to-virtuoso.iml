@@ -52,7 +52,6 @@
     <orderEntry type="library" scope="PROVIDED" name="netrc (v0.11.0, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="oj (v3.16.9, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="omni_logger (v0.1.4, mise: 3.1.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ontologies_linked_data (v0.0.1@d84e37, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ostruct (v0.6.1, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parallel (v1.26.3, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pony (v1.13.1, mise: 3.1.0) [gem]" level="application" />
@@ -66,7 +65,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rdf-vocab (v3.2.7, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdf-xsd (v3.2.1, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="redis (v5.3.0, mise: 3.1.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="redis-client (v0.23.0, mise: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redis-client (v0.23.1, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="request_store (v1.7.0, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rest-client (v2.1.0, mise: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.4.0, mise: 3.1.0) [gem]" level="application" />

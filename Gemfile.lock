@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ontoportal-lirmm/goo.git
-  revision: 51534f65b9b15594a866f1d47d6f4fe8cc2a17ba
+  revision: 5bbc870d3d621a6cedae4d099320ec6537e20269
   branch: feature/add-triple-store-logging
   specs:
     goo (0.0.2)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/ontoportal-lirmm/ontologies_linked_data.git
-  revision: d84e379b6ce6cd0e8c4672e5056279b3cc643827
+  revision: 0aa6219c44143b94135e01c78eb94ad99a5e8b32
   branch: development
   specs:
     ontologies_linked_data (0.0.1)
@@ -166,7 +166,7 @@ GEM
       rexml (~> 3.2)
     redis (5.3.0)
       redis-client (>= 0.22.0)
-    redis-client (0.23.0)
+    redis-client (0.23.1)
       connection_pool
     request_store (1.7.0)
       rack (>= 1.4)

@@ -4,12 +4,11 @@ require 'net/http'
 require 'json'
 require 'cgi'
 require 'csv'
-require 'pry'
 # Set your Virtuoso SPARQL endpoint, user credentials, and the directory where the .n3 files are located
 VIRTUOSO_SPARQL_ENDPOINT = 'http://localhost:8890/sparql'
 VIRTUOSO_USER = 'dba'
 VIRTUOSO_PASS = 'dba'
-PROCESSED_DIR = './processed_files'
+PROCESSED_DIR = ARGV[0] || './processed_files'
 OUTPUT_CSV = './graph_comparison.csv'
 
 # Query Virtuoso for graph triple counts

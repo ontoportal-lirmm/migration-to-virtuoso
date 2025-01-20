@@ -128,7 +128,7 @@ for file in "$PROCESSED_DIR"/*.n3; do
   echo "Successfully cleaned graph <$graph_uri>."
 
   # Run Virtuoso ISQL command to load the data into the specified graph
-  if ! "$VIRTUOSO_DIR"/bin/isql 1111 "$VIRTUOSO_USER" "$VIRTUOSO_PASS" exec="ld_dir('./$PROCESSED_DIR', '$(basename "$file")', '$graph_uri')"; then
+  if ! "$VIRTUOSO_DIR"/bin/isql 1111 "$VIRTUOSO_USER" "$VIRTUOSO_PASS" exec="ld_dir('$PROCESSED_DIR', '$(basename "$file")', '$graph_uri')"; then
     echo "Error importing $file into graph <$graph_uri>. Exiting script."
     exit 1
   fi
